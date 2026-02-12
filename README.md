@@ -10,7 +10,6 @@ A web scraping project using Selenium to extract book information from [books.to
 - ✅ Robust error handling with try-except blocks
 - ✅ Saves data in **CSV** and **JSON** formats
 - ✅ Real-time scraping progress display
-- ✅ Runs in background (headless mode optional)
 
 ## 📋 Requirements
 
@@ -127,13 +126,6 @@ except:
 ```
 
 ## 🎨 Customization
-
-### Enable Browser Window (Remove Headless)
-```python
-# Comment out these lines if you want to see the browser:
-# options.add_argument("--headless")
-# options.add_argument("--no-sandbox")
-```
 
 ### Adjust Delay Between Pages
 ```python
